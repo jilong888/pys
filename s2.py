@@ -72,4 +72,5 @@ stockList='002460,002812,300014,300750,603799,002709,603659,601012,002466,300450
 getKline(stockList,start_date='2021-11-05', end_date='2022-04-29',frequency='w')
 # getKline(stockList,start_date='2021-09-24', end_date='2022-02-04',frequency='w')
 # getKline(stockList,start_date='2022-02-11', end_date='2022-04-29',frequency='w')
+print(123)
 bs.logout()
