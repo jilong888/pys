@@ -69,7 +69,7 @@ def profit():
 # stockList='300595','603127','300347','300759','603882','300357','300725','002821','600763','300760','300015','600436'
 #新能源
 stockList='002460,002812,300014,300750,603799,002709,603659,601012,002466,300450,300274,600885'
-getKline(stockList,start_date='2021-11-05', end_date='2022-04-29',frequency='d')
+getKline(stockList,start_date='2021-11-05', end_date='2022-04-29',frequency='w')
 # getKline(stockList,start_date='2021-09-24', end_date='2022-02-04',frequency='w')
 # getKline(stockList,start_date='2022-02-11', end_date='2022-04-29',frequency='w')
 bs.logout()
